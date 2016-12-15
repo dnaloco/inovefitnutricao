@@ -1,0 +1,3 @@
+<div>
+	SINGLE
+</div>

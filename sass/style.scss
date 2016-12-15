@@ -1,0 +1,215 @@
+@charset 'utf-8';
+
+@import "colors";
+@import "fonts";
+
+
+@import 'settings';
+@import 'foundation';
+@import 'motion-ui';
+
+@include foundation-global-styles;
+@include foundation-grid;
+// @include foundation-flex-grid;
+@include foundation-typography;
+@include foundation-button;
+@include foundation-forms;
+// @include foundation-range-input;
+@include foundation-accordion;
+@include foundation-accordion-menu;
+@include foundation-badge;
+@include foundation-breadcrumbs;
+@include foundation-button-group;
+@include foundation-callout;
+@include foundation-close-button;
+@include foundation-menu;
+@include foundation-menu-icon;
+@include foundation-drilldown-menu;
+@include foundation-dropdown;
+@include foundation-dropdown-menu;
+@include foundation-flex-video;
+@include foundation-label;
+@include foundation-media-object;
+@include foundation-off-canvas;
+@include foundation-orbit;
+@include foundation-pagination;
+@include foundation-progress-bar;
+// @include foundation-progress-element;
+// @include foundation-meter-element;
+@include foundation-slider;
+@include foundation-sticky;
+@include foundation-reveal;
+@include foundation-switch;
+@include foundation-table;
+@include foundation-tabs;
+@include foundation-thumbnail;
+@include foundation-title-bar;
+@include foundation-tooltip;
+@include foundation-top-bar;
+@include foundation-visibility-classes;
+@include foundation-float-classes;
+// @include foundation-flex-classes;
+
+@include motion-ui-transitions;
+@include motion-ui-animations;
+
+@import "icomoon";
+
+@import "normalize";
+@import "cabecalho";
+@import "menus";
+@import "widgets";
+
+
+
+
+// TEMP
+// 
+#main-header-loja {
+	background: url('/wp-content/images/48353cfb.png');
+}
+
+body#body-loja {
+	background: url('/wp-content/images/48353cfb.png');
+}
+
+body#body-blog {
+	background: url('/wp-content/images/c128d971.png');
+}
+
+.widget {
+	background: white;
+	padding: 10px;
+	margin: 0;
+	border: 1px solid #82DA67;
+	box-shadow: -3px 3px 1px rgba(50, 50, 50, 0.3);
+}
+
+.widget-social .widget {
+	background: transparent !important;	
+	box-shadow: none;
+}
+
+#main-header-loja {
+	background: url('/wp-content/images/48353cfb.png');
+}
+
+.widget {
+	background: white;
+	padding: 10px;
+	margin: 0;
+	border: 1px solid #82DA67;
+	box-shadow: -3px 3px 1px rgba(50, 50, 50, 0.3);
+}
+
+.widget-social .widget {
+	background: transparent !important;	
+	box-shadow: none;
+}
+
+.product_list_widget li del:before {
+	content: 'de ';
+}
+
+.product_list_widget li del {
+	color: red;	
+}
+
+.product_list_widget li ins {
+	color: green;	
+}
+.product_list_widget li ins:before {
+	content: ' por ';
+}
+
+
+
+body {
+	background: url('/wp-content/images/48353cfb.png');
+	background-attachment: fixed;
+}
+
+#main-header-loja {
+	background: url('/wp-content/images/Fill_up_your_health_with_colorful_fruits_and_vegetables.jpg');
+	background-size: cover;
+	background-position: bottom;
+}
+
+.widget {
+	background: white;
+	padding: 10px;
+	margin: 0;
+	border: none;
+	
+	box-shadow: 0px 0px 2px rgba(33, 33, 33, 0.8), 0px 0px 12px rgba(33, 33, 33, 0.8), 0px 0px 22px rgba(33, 33, 33, 0.8);
+}
+
+#banner-loja {
+
+	width: 100%;
+	background: black;
+	border-bottom: 2px solid #5ca645;
+	box-shadow: 0px 0px 7px black;
+}
+
+#newsletter {
+	padding: 30px;
+	text-align: center;
+	background: #5ca645;
+	border-top: 2px solid #8f27f2;
+
+	box-shadow: 0px 0px 5px black;
+}
+
+#loja-footer {
+	min-height: 300px;
+	background: white;
+	width: 100%;
+	border-top: 2px solid #8f27f2;
+	box-shadow: 0px 0px 5px black;
+}
+
+.admin-bar-margin {
+	margin-top: 32px;	
+}
+
+#cardapio-loja {
+	margin-top: 18px;	
+}
+
+.sficn {
+	background: black;
+	opacity: 0.7 !important;
+	transition: all 0.5s;
+	border-radius: 35px;
+	box-shadow: 0 0 3px black !important;
+}
+
+.sficn:hover {
+	opacity: 1 !important;
+	width: 50px !important;	
+	left: -6px;
+	
+}
+
+.sfsi_wicon {
+	margin-top: -3px !important;
+	margin-left: 1px !important;
+}
+
+
+
+.newsletter-call {
+	font-size: 1.5em;
+	color: white;
+	text-shadow: -1px 1px 1px black;
+	
+}
+
+#newsletter {
+	padding: 0;	
+}
+
+#main-content-loja {
+	border: 1px dashed red;
+}

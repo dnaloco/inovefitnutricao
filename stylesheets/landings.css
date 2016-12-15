@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css?family=Reem+Kufi");
+/**
+ * Foundation for Sites by ZURB
+ * Version 6.2.4
+ * foundation.zurb.com
+ * Licensed under MIT Open Source
+ */
+/* line 4, ../sass/landings.scss */
+html * {
+  font-family: 'Reem Kufi', Roboto, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 10, ../sass/landings.scss */
+.flip-content {
+  padding: 20px;
+}
+/* line 13, ../sass/landings.scss */
+.flip-content p {
+  color: white;
+  font-size: 1.3em;
+}
+
+/* line 19, ../sass/landings.scss */
+#landing-home-01 {
+  min-height: 100%;
+  background: #fff;
+}
+/* line 22, ../sass/landings.scss */
+#landing-home-01 .logo {
+  background-image: url("/wp-content/images/logo-4.png");
+  background-repeat: no-repeat;
+  width: 204px;
+  height: 204px;
+  background-size: 100% !important;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: -999;
+}
+/* line 34, ../sass/landings.scss */
+#landing-home-01 #main-banner-page {
+  margin-top: 100px;
+  width: 100%;
+  height: 98.5%;
+  margin-top: 0;
+  border-top: 5px solid #5CA644;
+  border-bottom: 5px solid #8f27f2;
+  background: url("/wp-content/images/fundo_landing_page_countdown.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  z-index: 999;
+}
+/* line 56, ../sass/landings.scss */
+#landing-home-01 .left-flip {
+  text-align: left;
+}
+/* line 61, ../sass/landings.scss */
+#landing-home-01 .right-flip {
+  text-align: right;
+}
+/* line 65, ../sass/landings.scss */
+#landing-home-01 .left-flip, #landing-home-01 .right-flip {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  -webkit-perspective: 50%;
+  -moz-perspective: 50%;
+  perspective: 50%;
+}
+/* line 75, ../sass/landings.scss */
+#landing-home-01 .right-flip {
+  margin-left: 50% !important;
+}
+/* line 79, ../sass/landings.scss */
+#landing-home-01 .flip-side {
+  position: absolute;
+  height: 100% !important;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+/* line 86, ../sass/landings.scss */
+#landing-home-01 .flip-side a {
+  position: absolute;
+  bottom: 0;
+}
+/* line 92, ../sass/landings.scss */
+#landing-home-01 .side-a {
+  background: rgba(0, 0, 0, 0.4);
+}
+/* line 96, ../sass/landings.scss */
+#landing-home-01 .side-b {
+  background: rgba(255, 255, 255, 0.2);
+  visibility: hidden;
+  overflow: hidden;
+  backface-visibility: hidden;
+}
+/* line 103, ../sass/landings.scss */
+#landing-home-01 .side-out {
+  visibility: hidden;
+  overflow: hidden;
+  backface-visibility: hidden;
+}
+/* line 109, ../sass/landings.scss */
+#landing-home-01 .side-in {
+  visibility: visible;
+}
+/* line 113, ../sass/landings.scss */
+#landing-home-01 .logo {
+  position: absolute;
+  left: 35%;
+  top: 30%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 200px;
+  height: 200px;
+}
+/* line 123, ../sass/landings.scss */
+#landing-home-01 .logo-verde {
+  background: url("/wp-content/images/logo-verde-loja.png");
+}
+/* line 128, ../sass/landings.scss */
+#landing-home-01 .logo-roxo {
+  background: url("/wp-content/images/logo-roxo-blog.png");
+}
+
+/* line 134, ../sass/landings.scss */
+.pt-perspective {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  -webkit-perspective: 1200px;
+  -moz-perspective: 1200px;
+  perspective: 1200px;
+}
+
+/* line 143, ../sass/landings.scss */
+.pt-page-moveToTopFade {
+  -webkit-animation: moveToTopFade .7s ease both;
+  animation: moveToTopFade .7s ease both;
+}
+
+/* line 148, ../sass/landings.scss */
+.pt-page-moveFromTopFade {
+  -webkit-animation: moveFromTopFade .7s ease both;
+  animation: moveFromTopFade .7s ease both;
+}
+
+/* line 153, ../sass/landings.scss */
+.pt-page-moveToBottomFade {
+  -webkit-animation: moveToBottomFade .7s ease both;
+  animation: moveToBottomFade .7s ease both;
+}
+
+/* line 158, ../sass/landings.scss */
+.pt-page-moveFromBottomFade {
+  -webkit-animation: moveFromBottomFade .7s ease both;
+}
+
+@-webkit-keyframes moveToTopFade {
+  to {
+    opacity: 0.3;
+    -webkit-transform: translateY(-100%);
+  }
+}
+@keyframes moveToTopFade {
+  to {
+    opacity: 0.3;
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+}
+@-webkit-keyframes moveFromTopFade {
+  from {
+    opacity: 0.3;
+    -webkit-transform: translateY(-100%);
+  }
+}
+@keyframes moveFromTopFade {
+  from {
+    opacity: 0.3;
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+}
+@-webkit-keyframes moveToBottomFade {
+  to {
+    opacity: 0.3;
+    -webkit-transform: translateY(100%);
+  }
+}
+@keyframes moveToBottomFade {
+  to {
+    opacity: 0.3;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+}
+@-webkit-keyframes moveFromBottomFade {
+  from {
+    opacity: 0.3;
+    -webkit-transform: translateY(100%);
+  }
+}
+@keyframes moveFromBottomFade {
+  from {
+    opacity: 0.3;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+}
+/* line 195, ../sass/landings.scss */
+#main-banner-page {
+  margin-top: 32px !important;
+}
+
+/* line 199, ../sass/landings.scss */
+.sfsi_footerLnk {
+  display: none;
+}
+
+/* line 203, ../sass/landings.scss */
+.time_circles * {
+  color: #fff;
+  text-shadow: #7a7a7a -2px 2px 0;
+}
+
+/* line 208, ../sass/landings.scss */
+.title-page {
+  color: #fff;
+  text-shadow: #ccc 0 1px 0, #c9c9c9 0 2px 0, #bbb 0 3px 0, #b9b9b9 0 4px 0, #aaa 0 5px 0, rgba(0, 0, 0, 0.1) 0 6px 1px, rgba(0, 0, 0, 0.1) 0 0 5px, rgba(0, 0, 0, 0.3) 0 1px 3px, rgba(0, 0, 0, 0.15) 0 3px 5px, rgba(0, 0, 0, 0.2) 0 5px 10px, rgba(0, 0, 0, 0.2) 0 10px 10px, rgba(0, 0, 0, 0.1) 0 20px 20px;
+  font-size: 2em;
+  text-align: center;
+}
+
+/* line 216, ../sass/landings.scss */
+.countdown {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+}
+
+/* line 222, ../sass/landings.scss */
+.newsletter .input-group-button button {
+  margin-top: -20px;
+  background: #8f27f2;
+}
+
+/* line 226, ../sass/landings.scss */
+.newsletter {
+  padding: 20px;
+}
+
+/* line 229, ../sass/landings.scss */
+input[type="email"] {
+  padding: 10px;
+  border: solid 1px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s;
+  position: absolute;
+}
+
+/* line 235, ../sass/landings.scss */
+input[type="email"]:focus,
+input[type="email"].focus {
+  border: solid 1px #707070;
+  box-shadow: 0 0 5px 1px #969696;
+}
+
+/* line 241, ../sass/landings.scss */
+.row .columns {
+  border: none;
+}
+
+/* line 245, ../sass/landings.scss */
+.newsletter-call {
+  color: #fff;
+  text-shadow: #ccc 0 1px 0, #c9c9c9 0 2px 0, #bbb 0 3px 0, #b9b9b9 0 4px 0, #aaa 0 5px 0, rgba(0, 0, 0, 0.1) 0 6px 1px, rgba(0, 0, 0, 0.1) 0 0 5px, rgba(0, 0, 0, 0.3) 0 1px 3px, rgba(0, 0, 0, 0.15) 0 3px 5px, rgba(0, 0, 0, 0.2) 0 5px 10px, rgba(0, 0, 0, 0.2) 0 10px 10px, rgba(0, 0, 0, 0.1) 0 20px 20px;
+  font-size: 1.8em;
+  text-align: center;
+}

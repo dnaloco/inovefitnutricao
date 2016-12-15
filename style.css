@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+/*
+Theme Name: Loja Blog DA
+Theme URI: www.agenciadigitala.com.br
+Author: Arthur Santos Costa
+Author URI: www.agenciadigitala.com.br/arthur-santos-costa
+Description: Este é um tema que desenvolvi para um negócio de comercio de alimentação saudável voltada para atletas e fisiculturista. INOVE FIT...
+Version: 1.0
+Licence: Direitor do Autor
+Tags: loja blog woocomerce
+Text Domain: lojablog
+ */
+
+html {
+	margin: 0 !important;
+}
+
+.row .columns {
+	border: 1px solid lightgrey;
+}

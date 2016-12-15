@@ -1,0 +1,100 @@
+.search-widget * {
+	border: none !important;
+}
+
+
+.widget-title-decor  {
+	position: relative;
+}
+
+h2.widget-title {
+	font-size: 1.3em;
+	color: #5ca645;
+	padding: 0px 15px;
+	text-align: center;
+}
+
+.widget-title-decor-line {
+	height: 2px;
+	margin-top: -4px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#5ca645+0,7db9e8+100&1+0,0+81 */
+background: -moz-radial-gradient(center, ellipse cover, rgba(92,166,69,1) 0%, rgba(119,181,201,0) 81%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover, rgba(92,166,69,1) 0%,rgba(119,181,201,0) 81%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center, rgba(92,166,69,1) 0%,rgba(119,181,201,0) 81%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5ca645', endColorstr='#007db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */	
+}
+
+.widget {
+	margin: 20px 0;	
+}
+
+.price_slider {
+	width: 90%;
+	margin: 20px auto;
+		
+}
+
+.widget-title-decor:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image: url('/wp-content/images/symbol-logo3.png');
+	content: "";
+	background-size: 100% 100%;
+	width: 30px;
+	height: 30px;
+}
+
+.widget-title-decor:before {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-image: url('/wp-content/images/symbol-logo3.png');
+	content: "";
+	background-size: 100% 100%;
+	width: 30px;
+	height: 30px;
+}
+
+.product_list_widget a img {
+	width: 100px !important;	
+}
+
+#sfsi-widget-2 {
+	padding: 0;
+	margin: 0;
+	border: none;
+	text-align: right;
+}
+
+#sfsi-widget-2 .sfsi_wicons{
+	float: right !important;
+}
+
+
+.widget-area {
+	margin: 10px 0;	
+}
+
+#search label {
+	color: white;
+	font-size: 1em;
+}
+
+#search input {
+	margin: 0;	
+}
+
+#search label {
+	color: white;
+	font-size: 1em;
+}
+#search input[type="submit"] {
+	margin: 0 !important;
+	margin-top: -27px !important;
+}
+
+#search button {
+	margin: 0 !important;
+	margin-top: -28px !important;
+}

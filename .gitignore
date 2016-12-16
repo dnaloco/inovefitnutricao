@@ -1,2 +1,5 @@
-/bower_components/*
-/node_modules/*
+.git/
+.sass-cache/
+backup/
+bower_components/
+node_modules/
